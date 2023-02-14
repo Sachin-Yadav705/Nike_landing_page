@@ -1,0 +1,17 @@
+@import url("./styles/variables.css");
+
+body {
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: var(--bg-cream);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
